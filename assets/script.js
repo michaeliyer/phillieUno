@@ -313,6 +313,7 @@ function displayAllTrips() {
         trips.forEach(trip => {
           const listItem = document.createElement("li");
           listItem.textContent = `Trip ${trip.id}: ${trip.location}`;
+        //   listItem.textContent = `${trip.location}`;
           listItem.style.cursor = "pointer";
   
           // Make each item clickable
