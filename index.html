@@ -23,32 +23,37 @@
     <!-- Trip details will be dynamically added here -->
   </div>
 
-  <!-- Form to add new trip details -->
-  <form id="tripInputForm">
+
+
+
+<!-- Form to add new trip details -->
+<form id="tripInputForm">
     <h2>Add a New Trip</h2>
     <label for="tripId">Trip ID:</label>
     <input type="number" id="tripId" placeholder="Enter Trip ID" required>
-
+  
     <label for="location">Location:</label>
     <input type="text" id="location" placeholder="Enter Location" required>
-
+  
     <label for="startDate">Start Date:</label>
     <input type="date" id="startDate" required>
-
+  
     <label for="endDate">End Date:</label>
     <input type="date" id="endDate" required>
-
+  
     <label for="notes">Notes:</label>
     <textarea id="notes" placeholder="Enter Notes"></textarea>
-
-    <button type="submit">Add Trip</button>
-
-
-    <!-- Photo Stuff -->
-
-    <!-- <label for="photoUpload">Upload Photos:</label>
+  
+    <!-- Photo Upload Section -->
+    <label for="photoUpload">Upload Photos:</label>
     <input type="file" id="photoUpload" accept="image/*" multiple>
-    <button type="submit">Add Trip</button> -->
+  
+    <!-- Single Button -->
+    <button type="submit">Add Trip</button>
+  </form>
+
+
+
 
   </form>
 
