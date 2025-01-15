@@ -1,4 +1,4 @@
-// Reset Database Functionality
+// Reset Database Functionality - Unimplemented but available
 document.getElementById("resetDatabase").addEventListener("click", function () {
   const deleteRequest = indexedDB.deleteDatabase("phillieUnoDB");
 
